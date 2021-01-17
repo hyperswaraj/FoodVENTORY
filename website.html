@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food inventory</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+<style>
+body {
+  background-image: url('table.jpg');
+}
+</style>
+    <header>
+    <h1>FOOD INVENTORY</h1>
+    </header>
+    <br>
+    <main>
+            <h2>Get started</h2>
+            <p>
+             Delicious food is waiting to be cooked. <br>
+             If u know what you are cooking just search the recipe below<br>
+            </p>
+           <section>
+               <form action="">
+                <h2> ingredients information</h2>
+                <p> 
+If u dont know what you are cooking dont worry thats why we are here, just tell us what ingredients u have we will find a recipe for you.<br>
+                    <select name=" select your ingredient" id="ingredient1">
+                    <option value="">---select your first ingredient-- </option>
+                    <option value="potato"> potato</option>
+                    <option value="dal">dal</option>
+                    <option value="rice">rice</option>
+                    <option value="onion">onion</option>
+                    </p>
+                </select>
+                    <p> 
+                        <select name=" select your ingredient" id="ingredient2">
+                        <option value="">---select your second ingredient-- </option>
+                        <option value="potato"> potato</option>
+                        <option value="dal">dal</option>
+                        <option value="rice">rice</option>
+                        <option value="onion">onion</option>
+                        </p>
+                    </select>
+                        <p> 
+                            <select name=" select your ingredient" id="ingredient3">
+                            <option value="">---select your third ingredient-- </option>
+                            <option value="potato"> potato</option>
+                            <option value="dal">dal</option>
+                            <option value="rice">rice</option>
+                            <option value="onion">onion</option>
+                            </p>
+                </select>
+               </form>
+           </section>
+        <button id="btn">click to search for reciepe</button>
+        <section id="reciepe">
+            <h3>
+                Here is your reciepe
+            </h3>
+            <p id="rec">
+                you will see your reciepe here
+            </p>
+ 
+        <h4>Help us by sending your recipes and contribute to the website.</h4>
+
+<form action="mailto:admin@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Recipe:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+</form>
+    </section>
+<script src="newproject.js"></script>
+</body>
+</html>
